@@ -1,0 +1,191 @@
+.modal__content {
+    width: 400px;
+    height: 600px;
+}
+
+.questions-form select,
+.questions-form textarea {
+    width: 330px;
+}
+
+.question-visit {
+    width: 330px;
+}
+
+.question-email {
+    width: 330px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.popup-submit {
+    width: 330px;
+}
+
+.header {
+    background-image: url("../images/banner-bg-tablet.jpg");
+}
+
+.main-menu {
+    max-height: 55px;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 100px;
+}
+
+.burger-menu {
+    margin: auto 0 auto auto;
+    padding-bottom: 55px;
+}
+
+.main-logo {
+    width: 160px;
+    height: 40px;
+}
+
+.intro {
+    padding-bottom: 146px;
+    max-width: 605px;
+    line-height: 1.42;
+    font-size: 40px;
+}
+
+.trends-title__name {
+    font-size: 17px;
+}
+
+.trends-card__item {
+    width: 50%;
+}
+
+.main-content {
+    max-width: 700px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.posts {
+    width: 50%;
+    min-width: 390px;
+    margin: 0 35px 0 0;
+}
+
+.post:last-child {
+    border: transparent;
+}
+
+.post-preview {
+    width: 390px;
+}
+
+.post-img {
+    width: 390px;
+    margin: 0;
+}
+
+.post-tag {
+    padding-top: 65px;
+}
+
+.post-info {
+    width: 390px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.post-description {
+    width: 390px;
+}
+
+.sidebar {
+    width: 275px;
+}
+
+.tags {
+    width: 280px;
+    margin: auto auto 35px auto;
+}
+
+
+.search-field {
+    width: 225px;
+}
+
+.products {
+    max-width: 700px;
+}
+
+.newpost-title__name:after {
+    left: 105px;
+}
+
+.newsletter-title__name {
+    padding-right: 50px;
+}
+
+.newsletter-title__name:after {
+    left: 107px;
+}
+
+.subscribe-field {
+    width: 272px;
+}
+
+.subscribe-button {
+    width: 272px;
+}
+
+.topic {
+    width: 280px;
+    padding-right: 14px;
+}
+
+.tags-title__name:after {
+    left: 105px;
+}
+
+.topic-title__name:after {
+    left: 100px;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product-cards__item {
+    width: 50%;
+    margin: 0;
+}
+
+.product-cards__img {
+    width: 290px;
+    height: 225px;
+}
+
+.product-info {
+    width: 340px;
+    height: 260px;
+}
+
+.footer {
+    max-width: 700px;
+}
+
+@media screen and (orientation:portrait) and (max-width: 640px) {
+    .trends-card__item {
+        width: 100%;
+    }
+}
+
+
+@media screen and (orientation:landscape) and (max-width: 640px) {
+    .trends-card__item {
+        width: 50%;
+    }
+}

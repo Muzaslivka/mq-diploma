@@ -1,0 +1,187 @@
+.modal__content {
+    width: 330px;
+    height: 550px;
+}
+
+.questions-form select,
+.questions-form textarea {
+    width: 280px;
+    margin-top: 10px;
+}
+
+.question-visit {
+    width: 330px;
+}
+
+.question-email {
+    width: 330px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.popup-submit {
+    width: 280px;
+}
+
+.question-content {
+    width: 280px;
+    margin: 0;
+}
+
+.header {
+    background-image: url("../images/banner-mobile.jpg");
+}
+
+.header-content {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 25px 8px 0px 22px;
+}
+
+.main-menu {
+    align-items: center;
+}
+
+.main-logo {
+    width: 270px;
+    height: 60px;
+    margin-bottom: 45px;
+}
+
+.burger-menu {
+    margin: auto 0 180px auto;
+}
+
+.intro {
+    padding-bottom: 146px;
+    max-width: 270px;
+    line-height: 1.58;
+    font-size: 25px;
+}
+
+.trends-card__item {
+    width: 100%;
+}
+
+.trends-title__name {
+    font-size: 16px;
+}
+
+.main-content {
+    max-width: 330px;
+    box-sizing: border-box;
+}
+
+.post {
+    flex-wrap: wrap;
+}
+
+.post-preview {
+    width: 330px;
+    height: 255px;
+}
+
+.post-name {
+    font-size: 16px;
+}
+
+.post-img {
+    width: 330px;
+}
+
+.post-tag {
+    padding-top: 15px;
+}
+
+.post-description {
+    width: 330px;
+}
+
+.sidebar {
+    width: 100%;
+}
+
+.newposts {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search-field {
+    box-sizing: border-box;
+    width: 283px;
+    padding: 17px 2px 18px 18px;
+    border: 0px;
+    background-color: #f4f7f6;
+    height: 47px;
+    font-size: 13px;
+}
+
+.newpost-title__name:after {
+    left: 135px;
+}
+
+.newsletter {
+    width: 330px;
+}
+
+.subscribe-button {
+    width: 330px;
+}
+
+.subscribe-field {
+    width: 330px;
+}
+
+.tags {
+    width: 330px;
+    margin: 0 0 35px 0;
+}
+
+.tags-title__name:after {
+    left: 130px;
+}
+
+.topic-title__name:after {
+    left: 130px;
+}
+
+.products {
+    max-width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-cards__item {
+    width: 100%;
+}
+
+.product-info {
+    width: 330px;
+}
+
+.footer {
+    max-width: 330px;
+}
+
+.contact {
+    margin-bottom: 40px;
+}
+
+@media screen and (orientation:portrait) and (max-width: 640px) {
+    .trends-card__item {
+        width: 100%;
+    }
+}
+
+
+@media screen and (orientation:landscape) and (max-width: 640px) {
+    .trends-card__item {
+        width: 50%;
+    }
+}

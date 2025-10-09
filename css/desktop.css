@@ -1,0 +1,291 @@
+.header {
+  background-image: url("../images/banner-bg.jpg");
+}
+
+.main-menu {
+  max-width: 1200px;
+}
+
+.main-logo {
+  box-sizing: border-box;
+  width: 180px;
+  height: 40px;
+  margin-right: 450px;
+}
+
+.main-menu_list {
+  margin: 0 0 auto auto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0 0 0;
+}
+
+.main-menu_list__item {
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.intro {
+  padding-bottom: 146px;
+  max-width: 700px;
+  line-height: 1.67;
+  font-size: 45px;
+  line-height: 1.67;
+}
+
+.trends {
+  max-width: 1660px;
+  height: 320px;
+}
+
+.trends-title__name {
+  font-size: 20px;
+}
+
+.trends-card__item {
+  display: flex;
+  width: 25%;
+  max-height: 320px;
+}
+
+.main-content {
+  max-width: 1200px;
+  padding: 58px 8px 0px 22px;
+}
+
+.posts {
+  margin: 0 140px 0 0;
+  width: 70%;
+}
+
+.post {
+  flex-wrap: nowrap;
+  border: none;
+}
+
+.posts {
+  margin: 0 140px 0 0;
+}
+
+.post-name {
+  font-size: 20px;
+}
+
+.post-tag {
+  padding-top: 0px;
+}
+
+.post-img {
+  width: 390px;
+  margin-right: 28px;
+}
+
+.post-preview {
+  width: 383px;
+  height: 294px;
+  margin-right: 28px;
+}
+
+.post-info {
+  box-sizing: border-box;
+  font-size: 15px;
+  border: 1px solid transparent;
+  width: 340px;
+  font-size: 15px;
+}
+
+.post-description {
+  font-size: 15px;
+  line-height: 1.46;
+  color: #0f0d0e;
+  border-bottom: none;
+}
+
+.post-author {
+  margin-bottom: 46px;
+}
+
+.menu-link:hover,
+.logo-link:hover,
+.trends-tag:hover,
+.post-tag__link:hover {
+  text-decoration: underline;
+}
+
+.newposts {
+  width: 280px;
+}
+
+.subscribe-field {
+  width: 272px;
+}
+
+.subscribe-field:focus-visible {
+  outline: none;
+  border-bottom: 3px solid #ebe7d7;
+  padding-bottom: 15px;
+}
+
+.subscribe-button {
+  width: 272px;
+}
+
+.subscribe-button:focus {
+  outline: none;
+  border-top: 1px solid #b9b29b;
+}
+
+.newpost-title__name:after {
+  left: 110px;
+}
+
+.products {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-title__name {
+  display: flex;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-title__name:after {
+  content: "";
+  display: block;
+  width: 66px;
+  height: 3px;
+  background-color: #e1d9bd;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  top: 27px;
+}
+
+.product-cards {
+  width: 1200px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+.product-cards__item {
+  width: 33.33%;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+
+}
+
+.product-cards__img {
+  width: 300px;
+  height: 206px;
+}
+
+.product-info {
+  position: relative;
+  box-sizing: border-box;
+  border: 3px solid #ddd3b4;
+  width: 350px;
+  height: 290px;
+  top: -50px;
+}
+
+.product-name {
+  text-align: left;
+  text-transform: uppercase;
+  padding-left: 49px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.product-description {
+  width: 300px;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 3px;
+  padding-top: 15px;
+  position: relative;
+}
+
+.description-decor {
+  padding-bottom: 20px;
+}
+
+.product__footer {
+  display: flex;
+  position: relative;
+}
+
+.product-price__old {
+  text-decoration: line-through;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.product__price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  line-height: 1;
+  display: flex;
+  padding-right: 100px;
+}
+
+.product__button {
+  width: 140px;
+  height: 50px;
+  border: 2px solid #efeeea;
+  box-sizing: border-box;
+  border-top: 1px solid #e6dfc8;
+  background-color: #b59f5b;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.text-decor {
+  color: #b59f5b;
+}
+
+.footer {
+  max-width: 1200px;
+  padding-left: 22px;
+  padding-right: 14px;
+}
+
+.contact {
+  margin-bottom: 60px;
+}
+
+@media screen and (orientation:portrait) and (min-width: 641px) and (max-width: 1200px) {
+  .trends-card__item {
+    width: 50%;
+  }
+}
+
+
+@media screen and (orientation:landscape) and (min-width: 641px) and (max-width: 1200px) {
+  .trends-card__item {
+    width: 25%;
+  }
+}
