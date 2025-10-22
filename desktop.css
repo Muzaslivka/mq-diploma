@@ -1,0 +1,123 @@
+.modal__content {
+  max-width: 390px;
+  margin-top: 200px;
+}
+
+.modal__close {
+  width: 20px;
+  height: 20px;
+  top: -25px;
+}
+
+.questions-form textarea {
+  max-height: 150px;
+}
+
+.popup-submit {
+  max-height: 50px;
+}
+
+.header {
+  background-image: url("../images/banner-bg.jpg");
+}
+
+.burger-menu {
+  display: none;
+}
+
+.main-menu {
+max-width: 1260px;
+margin: 0 auto;
+}
+
+.main-menu_list {
+  margin: 0 0 auto auto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0 0 0;
+}
+
+.main-menu_list__item {
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.menu-link {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  padding: 123px 260px 146px 260px;
+  line-height: 1.67;
+  font-size: 45px;
+}
+
+.trends-title__name:after {
+  top: 30px;
+}
+
+.trends-card__item {
+  width: 25%;
+  height: 320px;
+}
+
+.trends-title__name {
+  font-size: 20px;
+}
+
+.trends-link {
+  font-size: 20px;
+}
+
+.main-content,
+.offer,
+.footer {
+  margin: 0 auto 35px auto;
+  max-width: 1200px;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+  border-bottom: none;
+}
+
+.post-img {
+  width: 380px;
+}
+
+.post-description {
+  font-size: 15px;
+}
+
+.post-info {
+  padding-left: 30px;
+}
+
+.sidebar {
+  max-width: 275px;
+}
+
+.newpost-name {
+  font-size: 14px;
+}
+
+.product-cards__item {
+  width: 32%;
+}
+
+.product-name {
+  font-size: 20px;
+}
+
+.description-decor {
+  font-size: 15px;
+}
