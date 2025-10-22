@@ -11,6 +11,7 @@
 
 .questions-form textarea {
   max-height: 150px;
+  font-size: 14px;
 }
 
 .popup-submit {
@@ -120,4 +121,5 @@ margin: 0 auto;
 
 .description-decor {
   font-size: 15px;
+
 }
