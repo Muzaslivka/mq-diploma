@@ -11,7 +11,6 @@
 
 .questions-form textarea {
   max-height: 150px;
-  font-size: 14px;
 }
 
 .popup-submit {
@@ -26,9 +25,14 @@
   display: none;
 }
 
+.main-logo {
+  width: 180px;
+
+}
+
 .main-menu {
-max-width: 1260px;
-margin: 0 auto;
+  max-width: 1260px;
+  margin: 0 auto;
 }
 
 .main-menu_list {
@@ -60,17 +64,17 @@ margin: 0 auto;
   font-size: 45px;
 }
 
-.trends-title__name:after {
+.title-fs__bigger {
+  font-size: 18px;
+}
+
+.title__name:after {
   top: 30px;
 }
 
 .trends-card__item {
   width: 25%;
   height: 320px;
-}
-
-.trends-title__name {
-  font-size: 20px;
 }
 
 .trends-link {
@@ -103,6 +107,10 @@ margin: 0 auto;
   padding-left: 30px;
 }
 
+.posts {
+  margin-right: 135px;
+}
+
 .sidebar {
   max-width: 275px;
 }
@@ -121,5 +129,4 @@ margin: 0 auto;
 
 .description-decor {
   font-size: 15px;
-
 }
